@@ -1,0 +1,65 @@
+/* ESTILOS CSS DEL PROYECTO */
+
+.dt-buttons {
+  display: contents;
+}
+
+button.dt-button, div.dt-button, a.dt-button {
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  margin-right: 0.333em;
+  margin-bottom: 0.333em;
+  padding: 0.5em 1em;
+  border: 0px solid #999;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.88em;
+  line-height: 1.6em;
+  color: white;
+  white-space: nowrap;
+  overflow: hidden;
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='white', EndColorStr='#e9e9e9');
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-decoration: none;
+  outline: none;
+  text-overflow: ellipsis;
+}
+
+.alert-danger {
+  color: white;
+  background-color: #e04e5c;
+  /*border-color: #f5c6cb;*/
+  font-weight: bold;
+}
+
+#icono{
+  font-size: 1.5rem;
+}
+
+#icono-sub{
+  font-size: 1.25rem;
+  margin-right: 5px;
+}
+
+span{
+  cursor: pointer;
+}
+
+footer{
+  position: fixed;
+  width: 91%;
+  bottom: 0;
+}
+
+thead{
+  background-color: #4e73df; 
+  color: white;
+ }
+
+td {
+  color: black;
+    }
